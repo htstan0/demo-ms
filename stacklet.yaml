@@ -1,0 +1,11 @@
+collections:
+  - name: "aws-s3-demo-encryption-htstan0-demo-ms"
+    schedule: "rate(2 minutes)"
+    accounts:
+      - 527016798229
+    regions:
+      - us-east-2
+      - us-east-1
+      - eu-west-1
+    policies:
+      - aws-s3-demo-encryption-htstan0-demo-ms
